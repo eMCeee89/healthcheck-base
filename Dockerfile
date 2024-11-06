@@ -6,3 +6,5 @@ FROM base AS test
 RUN [ "/bin/bash", "--version" ]
 RUN [ "/usr/bin/curl", "--version" ]
 RUN [ "/usr/bin/jq", "--version" ]
+
+FROM base AS final
